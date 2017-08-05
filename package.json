@@ -1,0 +1,22 @@
+{
+  "name": "async-node-wamp",
+  "version": "1.0.0",
+  "description": "Wwise Authoring API with async wamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wwise",
+    "soundframe",
+    "wamp"
+  ],
+  "author": "Audiokinetic",
+  "license": "ISC",
+  "dependencies": {
+    "@types/autobahn": "^0.9.33",
+    "@types/node": "^7.0.5",
+    "autobahn": "^0.11.2"
+  },
+  "devDependencies": {}
+}
