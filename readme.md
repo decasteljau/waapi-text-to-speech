@@ -1,4 +1,4 @@
-# Hello Wwise - Typescript Sample
+# Text To Speech From Wwise
 ## Overview
 
 This samples demonstrates how to generate WAV files from a text-to-speech from Wwise directly.
@@ -7,6 +7,7 @@ This samples demonstrates how to generate WAV files from a text-to-speech from W
 
 1. [Node.js](https://nodejs.org)
 1. [git](https://git-scm.com/downloads)
+1. Windows operating system
 
 ## Setup
 
@@ -30,8 +31,12 @@ First, ensure WAAPI is enabled in Wwise:
 
 Then, open a Wwise Project.
 
+## Adding this script as an external editor
 
+1. To do
 
-## The code
+## How it works
 
-The code is located in [index.ts](index.ts). 
+The source code is located in [index.ts](index.ts). 
+
+This script is normally executed from the current selection. It will retrieve the selection from Wwise and generate a WAV file for each selected Sound objects. The WAV files will be automatically imported in the project.
