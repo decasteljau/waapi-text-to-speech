@@ -16,7 +16,11 @@
   "dependencies": {
     "@types/autobahn": "^0.9.33",
     "@types/node": "^7.0.5",
-    "autobahn": "^0.11.2"
+    "@types/node-powershell": "^3.1.0",
+    "async": "^2.5.0",
+    "autobahn": "^0.11.2",
+    "node-powershell": "^3.1.1",
+    "typescript": "^2.4.2"
   },
   "devDependencies": {}
 }
