@@ -11,6 +11,8 @@ This samples demonstrates how to generate WAV files from a text-to-speech from W
 
 ## Setup
 
+**Note:** This sample requires Windows Powershell, which comes with Windows 10.
+
 It works best with Visual Studio Code. Ensure you have typescript 2.x+ installed. Run the following commands.
 
 Install dependencies:
@@ -33,10 +35,14 @@ Then, open a Wwise Project.
 
 ## Adding this script as an external editor
 
-1. To do
+In Wwise:
+1. Open menu: **Project > User Preferences**
+1. In the **External Editors**, click **Add...**
+1. Browse for the `text-to-speech.cmd` file in this directory
+1. Click **OK**
 
 ## How it works
 
 The source code is located in [index.ts](index.ts). 
 
-This script is normally executed from the current selection. It will retrieve the selection from Wwise and generate a WAV file for each selected Sound objects. The WAV files will be automatically imported in the project.
+This script is executed as an external editor in Wwise from the current selection. It will retrieve the selection from WAAPI and generate a WAV file for each selected Sound objects using Windows text to speech. The WAV files will be automatically imported in the project with WAAPI.

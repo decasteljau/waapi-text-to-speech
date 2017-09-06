@@ -9,18 +9,21 @@
   "keywords": [
     "wwise",
     "soundframe",
-    "wamp"
+    "wamp",
+    "text-to-speech"
   ],
   "author": "Audiokinetic",
   "license": "ISC",
   "dependencies": {
+    "@types/async": "^2.0.42",
     "@types/autobahn": "^0.9.33",
+    "@types/fs-extra": "^4.0.1",
     "@types/node": "^7.0.5",
-    "@types/node-powershell": "^3.1.0",
     "async": "^2.5.0",
     "autobahn": "^0.11.2",
-    "node-powershell": "^3.1.1",
-    "typescript": "^2.4.2"
+    "fs-extra": "^4.0.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "typescript": "^2.4.2"
+  }
 }
