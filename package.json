@@ -13,7 +13,7 @@
     "text-to-speech"
   ],
   "author": "Audiokinetic",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "dependencies": {
     "@types/async": "^2.0.42",
     "@types/autobahn": "^0.9.33",
