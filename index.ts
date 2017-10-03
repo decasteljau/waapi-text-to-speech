@@ -62,7 +62,7 @@ async function main() {
             var args = {
                 "importOperation": "useExisting",
                 "default": {
-                    "importLanguage": "SFX"
+                    "importLanguage": "English(US)"
                 },
                 "imports": result
             };
@@ -70,7 +70,7 @@ async function main() {
             console.log(JSON.stringify(args,null,4));
 
             // Import with WAAPI
-            var selection = await session.call(ak.wwise.core.audio.import_,args);
+            await session.call(ak.wwise.core.audio.import_,args);
 
             // Delete temporary
             var audioFiles = result.map(i=>i.audioFile);
@@ -83,7 +83,12 @@ async function main() {
         
     }
     catch (e) {
-        console.log(e);
+        console.log(`exception:`);
+        console.dir(e, {color:true});
+
+        console.log('Press any key to exit');
+        process.stdin.resume();
+        process.stdin.on('data', process.exit.bind(process, 0));        
     }
 }
 
