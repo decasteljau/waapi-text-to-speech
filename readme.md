@@ -38,13 +38,19 @@ First, ensure WAAPI is enabled in Wwise:
 
 Then, open a Wwise Project.
 
-## Adding this script as an external editor
+### Adding this script as an external editor
 
 In Wwise:
 1. Open menu: **Project > User Preferences**
 1. In the **External Editors**, click **Add...**
 1. Browse for the `text-to-speech.cmd` file in this directory
 1. Click **OK**
+
+### Executing
+
+1. Create a **Sound Voice** object
+1. Insert text in the **Notes** field
+1. Right-click the **Sound Voice** object, and use the external editor text-to-speech
 
 ## How it works
 
