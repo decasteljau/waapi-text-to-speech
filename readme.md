@@ -57,3 +57,5 @@ In Wwise:
 The source code is located in [index.ts](index.ts). 
 
 This script is executed as an external editor in Wwise from the current selection. It will retrieve the selection from WAAPI and generate a WAV file for each selected Sound objects using Windows text to speech. The WAV files will be automatically imported in the project with WAAPI.
+
+Refer to this [blog article](https://blog.audiokinetic.com/waapi-three-open-source-projects-for-wwise-authoring-api/) for more information. 
