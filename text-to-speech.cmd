@@ -1,1 +1,1 @@
-call node %~dp0\index.js
+call node "%~dp0\index.js"
