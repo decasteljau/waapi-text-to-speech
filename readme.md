@@ -18,7 +18,7 @@ Demonstrates:
 
 ## Setup
 
-It works best with Visual Studio Code. Ensure you have typescript 2.x+ installed. Run the following commands.
+It works best with Visual Studio Code. Run the following commands.
 
 Install dependencies:
 
