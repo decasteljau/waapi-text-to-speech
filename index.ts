@@ -1,9 +1,9 @@
-import * as wamp from './wamp-promise';
+import * as waapi from 'waapi-client';
 import * as path from 'path';
 import * as async from 'async';
 import * as os from 'os';
 import * as fs from 'fs-extra'
-import { ak } from './waapi';
+import { ak } from 'waapi';
 import {spawn} from 'child_process';
 
 const generateDir = path.join( os.tmpdir(),'waapi-tts');
@@ -15,7 +15,7 @@ async function main() {
         // Connect to WAAPI
         // Ensure you enabled WAAPI in Wwise's User Preferences. 
         // Refer to readme.md for more information
-        var session = await wamp.connect('ws://localhost:8080/waapi');
+        var session = await waapi.connect('ws://localhost:8080/waapi');
 
         var wwiseInfo = await session.call(ak.wwise.core.getInfo, {});
         console.log(`Connected to ${wwiseInfo.displayName} ${wwiseInfo.version.displayName}!`);

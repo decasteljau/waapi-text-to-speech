@@ -22,7 +22,9 @@
     "@types/node": "7.0.5",
     "async": "2.5.0",
     "autobahn": "0.11.2",
-    "fs-extra": "4.0.1"
+    "fs-extra": "4.0.1",
+    "waapi": "^2017.1.2",
+    "waapi-client": "^2017.1.0"
   },
   "devDependencies": {
     "typescript": "2.4.2"
