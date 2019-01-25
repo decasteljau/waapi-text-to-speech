@@ -4,14 +4,15 @@
 This samples demonstrates how to generate WAV files from a text-to-speech from Wwise directly.
 
 Demonstrates:
- - WAAPI ak.wwise.ui.getSelectedObjects
- - WAAPI ak.wwise.core.audio.import
- - Text to Speech using Windows Powershell 
- - Wwise External Tools
+
+- WAAPI [ak.wwise.ui.getSelectedObjects](https://www.audiokinetic.com/library/edge/?source=SDK&id=ak__wwise__ui__getselectedobjects.html)
+- WAAPI [ak.wwise.core.audio.import](https://www.audiokinetic.com/library/edge/?source=SDK&id=ak__wwise__core__audio__import.html)
+- Text to Speech using Windows Powershell
+- Wwise External Tools
 
 ## Requirements
 
-1. [Node.js](https://nodejs.org)
+1. [Node.js](https://nodejs.org) - Use the LTS version
 1. [git](https://git-scm.com/downloads)
 1. Windows operating system 
 1. Windows Powershell (comes with Windows 10)

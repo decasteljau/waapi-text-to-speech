@@ -83,7 +83,7 @@ async function main() {
         
     }
     catch (e) {
-        console.log(`exception: ${JSON.stringify(e,null,4)}`);
+        console.error(`exception: ${e}`);
 
         console.log('Press any key to exit');
         process.stdin.resume();
